@@ -19,7 +19,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome! Each try costs 1 point, regardless if you get it right or not. "
-                + "Trying a whole word (or more than one letter) costs you 5 points if you get it wrong. Good luck!");
+                + "Trying a whole word costs you 5 points if you get it wrong. Good luck!");
 
         while (penalty < 16 && !Arrays.equals(hiddenWord, wordLetterList)) {
             System.out.print("Enter a letter or a word: ");
